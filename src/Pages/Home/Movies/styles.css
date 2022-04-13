@@ -1,0 +1,55 @@
+.popular {
+  color: white;
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  padding-bottom: 35px;
+}
+
+.movies-container {
+  justify-content: space-between;
+  display: flex;
+  height: 300px;
+  gap: 40px;
+}
+
+.shangchi {
+  width: 300px;
+  background-image: url("../../../images/shangchi.png");
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+.captain-america {
+  width: 300px;
+  
+  background-image: url("../../../images/capitao\ america.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+.loki {
+  width: 300px;
+  
+  background-image: url("../../../images/loki.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.witcher {
+  width: 300px;
+  background-image: url("../../../images/witcher.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.miranha {
+  width: 300px;
+  background-repeat: no-repeat;
+  background-image: url("../../../images/miranha.png");
+  background-size: contain;
+}

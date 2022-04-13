@@ -1,0 +1,45 @@
+.card-container {
+  color: white;
+  padding-top: 30px;
+  max-width: 400px;
+}
+
+.stars {
+  margin: 10px 10px 0 -15px;
+}
+.movie-gender {
+  color: #ffa634;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.movie-rating {
+  display: flex;
+align-items: center;
+}
+
+.time-movie {
+  display: flex;
+  gap: 10px;
+}
+
+.movie-name {
+  font-weight: 600;
+font-size: 56px;
+line-height: 64px;
+margin-bottom: 25px;
+}
+
+.watch-button {
+  width: 286px;
+height: 56px;
+background: #FFA634;
+border-radius: 4px;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+}
+
+.movie-description {
+  padding-bottom: 25px;
+}

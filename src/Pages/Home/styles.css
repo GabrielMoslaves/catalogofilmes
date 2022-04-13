@@ -1,9 +1,9 @@
 .background {
    background-color: black;
-   padding: 40px;
+   padding: 20px;
    background-image: url('../../images/image.png');
    background-repeat: no-repeat;
    background-size: cover;
-   height: 100vh;
+   height: 100%;
    
 }
