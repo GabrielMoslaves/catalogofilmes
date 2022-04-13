@@ -1,0 +1,15 @@
+.header-container {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.header-right {
+  font-weight: 600;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  
+}
