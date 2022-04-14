@@ -1,8 +1,19 @@
 .movie-card {
   max-width: 300px;
   width: 100%;
+  color: white;
+  font-weight: 600;
 }
 
 .movie-card img {
   width: 100%;
+  position: relative;
+}
+
+.info-wrapper {
+  position: absolute;
+  bottom: 0;
+}
+.stars {
+  display: flex;
 }

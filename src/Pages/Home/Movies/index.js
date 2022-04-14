@@ -11,11 +11,11 @@ function Movies() {
     <div>
       <div className="popular">Populares</div>
       <div className="movies-container">
-        <MovieCard poster={shangchi} category='filme lixo' stars='estrela' moviename='shangchi'/>
-        <MovieCard poster={miranha}/>
-        <MovieCard poster={loki}/>
-        <MovieCard poster={captainamerica}/>
-        <MovieCard poster={witcher}/>
+        <MovieCard poster={shangchi} category='Ação'  moviename='Shang Chi'/>
+        <MovieCard poster={miranha} category='Ação'  moviename='Homem aranha'/>
+        <MovieCard poster={loki} category='Ação'  moviename='Loki'/>
+        <MovieCard poster={captainamerica} category='Ação'  moviename='Capitão América'/>
+        <MovieCard poster={witcher} category='Ação'  moviename='The Witcher'/>
         
       </div>
     </div>

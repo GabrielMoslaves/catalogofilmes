@@ -1,12 +1,14 @@
 import "./styles.css";
+import Starfill from "../../images/starfill.png";
 
-function MovieCard({ poster, category, stars, moviename }) {
+function MovieCard({ poster, category, moviename }) {
   return (
     <div className="movie-card">
-      <img src={poster} />
-      <div>
+      <img className="image" src={poster} />
+      <div className="info-wrapper">
         <div> {category} </div>
-        <div> {stars} </div>>
+     
+
         <div> {moviename} </div>
       </div>
     </div>
