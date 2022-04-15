@@ -7,7 +7,13 @@ function MovieCard({ poster, category, moviename }) {
       <img className="image" src={poster} />
       <div className="info-wrapper">
         <div> {category} </div>
-     
+        <div className="stars">
+          <img src={Starfill} />
+          <img src={Starfill} />
+          <img src={Starfill} />
+          <img src={Starfill} />
+          <img src={Starfill} />
+        </div>
 
         <div> {moviename} </div>
       </div>

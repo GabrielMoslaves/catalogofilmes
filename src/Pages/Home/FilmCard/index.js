@@ -7,7 +7,7 @@ function FilmCard() {
     <div className="card-container">
       <div className="movie-gender">Ação</div>
       <div className="movie-rating">
-        <div className="stars">
+        <div className="stars-filmcard">
           <img src={star}></img>
           <img src={star}></img>
           <img src={star}></img>
